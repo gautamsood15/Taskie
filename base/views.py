@@ -15,3 +15,5 @@ class TaskDetail(DetailView):
     context_object_name = 'task'
     template_name = 'base/task.html'
 
+class TaskCreate(CreateView):
+    
