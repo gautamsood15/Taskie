@@ -17,3 +17,4 @@ class TaskDetail(DetailView):
 
 class TaskCreate(CreateView):
     model = Task
+    field = '__all__'
