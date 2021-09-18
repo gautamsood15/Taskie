@@ -24,3 +24,4 @@ class TaskCreate(CreateView):
 
 class TaskUpdate(UpdateView):
     model = Task
+    fields = '__all__'
