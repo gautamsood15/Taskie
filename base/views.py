@@ -23,4 +23,4 @@ class TaskCreate(CreateView):
     success_url = reverse_lazy('tasks')
 
 class TaskUpdate(UpdateView):
-    pass
+    model = Task
