@@ -27,3 +27,4 @@ class TaskUpdate(UpdateView):
     fields = '__all__'
     success_url = reverse_lazy('tasks')
 
+class DeleteView(DeleteView):
