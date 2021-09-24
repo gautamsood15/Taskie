@@ -3,5 +3,5 @@ from django.views.generic.list import ListView
 
 # Create your views here.
 
-class taskList(request):
+class TaskList(request):
     return HttpResponse('ToDo List')
