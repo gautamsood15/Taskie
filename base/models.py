@@ -8,3 +8,4 @@ class Task(models.Model):
     description = models.TextField(null=True, blank=True)
     complete = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True)
+    
