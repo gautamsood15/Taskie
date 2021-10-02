@@ -7,4 +7,4 @@ class Task(models.Model):
     title = models.CharField()
     description = models.TextField()
     complete = models.BooleanField()
-    created = 
+    created = models.DateTimeField()
