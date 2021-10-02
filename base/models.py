@@ -6,5 +6,5 @@ class Task(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     title = models.CharField()
     description = models.TextField()
-    complete = 
+    complete = models.BooleanField()
     created = 
