@@ -15,6 +15,8 @@ class CustomLoginView(LoginView):
     fields = '__all__'
     redirect_authenticated_user = True
 
+    
+
 class TaskList(ListView):
     model = Task
     context_object_name = 'tasks'
