@@ -15,7 +15,8 @@ class CustomLoginView(LoginView):
     fields = '__all__'
     redirect_authenticated_user = True
 
-    
+    def get_success_url(self):
+        
 
 class TaskList(ListView):
     model = Task
