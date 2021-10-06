@@ -6,3 +6,4 @@ class Task(models.Model):
     user =
     title = 
     description = 
+    complete = 
