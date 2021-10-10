@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-oy8&@rb98$^vs4voo6o(2r-9-(r8njvt=@q%u(@yoiyppx(y6d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['arcane-chamber-42012.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['arcane-chamber-42012.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -79,7 +79,13 @@ WSGI_APPLICATION = 'Taskie.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'de97fc26h165bh',
+        'HOST': 'ec2-34-228-154-153.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'tyylmfalxvjvbc',
+        'PASSWORD': '798045b65f95c0360a992ec525588ae0479c8a3733ca22818ddb2a797155733b'
+
+
     }
 }
 
