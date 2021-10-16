@@ -12,6 +12,7 @@ from .models import Task
 
 class CustomLoginView(LoginView):
     template_name = 'base/login.html'
+    fields = '__all__'
 
 class TaskList(ListView):
     model = Task
