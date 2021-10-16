@@ -13,7 +13,7 @@ from .models import Task
 class CustomLoginView(LoginView):
     template_name = 'base/login.html'
     fields = '__all__'
-    redirect_authenticated_user
+    redirect_authenticated_user = True
 
 class TaskList(ListView):
     model = Task
