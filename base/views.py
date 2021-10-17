@@ -10,7 +10,7 @@ from .models import Task
 
 # Create your views here.
 
-
+class CustomLoginView(:)
 
 class TaskList(ListView):
     model = Task
