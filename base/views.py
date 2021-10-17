@@ -11,6 +11,7 @@ from .models import Task
 # Create your views here.
 
 class CustomLoginView(LoginView):
+    template_name = 'base/login.html'
 
 class TaskList(ListView):
     model = Task
