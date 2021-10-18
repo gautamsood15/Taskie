@@ -24,8 +24,9 @@ class TaskList(LoginRequiredMixin, ListView):
     model = Task
     context_object_name = 'tasks'
 
-    def get_context_data():
-        pass
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        
 
 class TaskDetail(LoginRequiredMixin, DetailView):
     model = Task
